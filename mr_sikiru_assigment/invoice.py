@@ -1,6 +1,6 @@
 price = int(input("Enter the price of the item"))
 name_of_item = input("Enter the name of item you want to purchase")
-credit_status = bool(input("do you have good credit status? if yes type 1 or ignore "))
+credit_status = bool(input("do you have good credit status? if yes type 1 or ignore if No "))
 if credit_status:
     print("""
         *********************
