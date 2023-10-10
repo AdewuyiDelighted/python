@@ -5,5 +5,5 @@ from list_function.assignment.sum_list import sums
 
 class Test(TestCase):
     def test_sums(self):
-        num = [2, 3, 4, 5, 6, 7, 8, 10]
-        self.assertEquals = (45, sums(num))
+        num = [15, 20, 25, 20, 10, 5]
+        self.assertEquals = (95, sums(num))
