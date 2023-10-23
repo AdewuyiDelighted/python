@@ -11,9 +11,9 @@ def finding_gcd(first_num, second_num):
     gcd = []
     list_factors = factors_0f_numbers(first_num,second_num)
     for factor in list_factors:
-        if (first_num % factor == 0) and second_num % factor == 0:
+        if first_num % factor == 0 and second_num % factor == 0:
             gcd.append(factor)
     return max(gcd)
 
 
-print(finding_gcd(12,36))
+print(finding_gcd(15,30))
