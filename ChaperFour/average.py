@@ -1,0 +1,6 @@
+def averages(*numbers):
+    return sum(numbers)/len(numbers)
+
+
+print(averages(1,2,3,4,5,6,7,8,9,10))
+    
