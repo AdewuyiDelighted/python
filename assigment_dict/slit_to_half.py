@@ -11,7 +11,7 @@ def slit_to_two(lists: list):
         num = lists[indx]
         list_two.append(num)
 
-    print(list_one, list_two)
+    return list_one, list_two
 
 
 lists = [10, 75, 20, 30, 15, 5, 40, 25, 40, 35]

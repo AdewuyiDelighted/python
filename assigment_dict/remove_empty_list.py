@@ -6,7 +6,7 @@ def remove_element(lists: list):
             filled_list.append(string)
         else:
             continue
-    print(filled_list)
+    return (filled_list)
 
 
 lists = ["", "A,B,C", "x,y,z", "a,b,c","","XYZ"]
