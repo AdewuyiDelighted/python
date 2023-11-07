@@ -1,9 +1,12 @@
 def list_to_dictionary(lists: list):
     empty_dict = {}
     for alpa in lists:
-        empty_dict.update({alpa[0]: alpa})
-    return (empty_dict)
+        letter = alpa[0]
+        if letter in empty_dict:
+            letter = alpa[0].upper()
+        empty_dict.update({letter: alpa})
+    return empty_dict
 
 
-lists = ["apple", "banana", "coconut"]
+lists = ["apple", "banana", "coconut","corn"]
 print(list_to_dictionary(lists))
