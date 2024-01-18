@@ -4,5 +4,4 @@ def fahrenheit():
         fah = (9 / 5) * index + 32
         print(f'{index:}{fah:>20.0f}')
 
-
 print(fahrenheit())
