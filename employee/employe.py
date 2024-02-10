@@ -1,19 +1,20 @@
 from employee.InvalidHourOfWork import InvalidHourOfWork
+from employee.employDepartment import EmployeeRole
 
 
 class Employee:
     hourly_rate = 10
 
-    def __init__(self, emp_id, emp_name, emp_department):
+    def __init__(self, emp_id, emp_name,EmployeeRole):
         self._emp_id = emp_id
         self._emp_name = emp_name
-        self._emp_department = emp_department
+        self._emp_department = EmployeeRole
         self._number_of_hours_worked = 0
 
     def set_emp_id(self, emp_id):
         self._emp_id = emp_id
 
-    def get_emp_id(self, ):
+    def get_emp_id(self):
         return self._emp_id
 
     def set_emp_name(self, emp_name):
@@ -22,8 +23,8 @@ class Employee:
     def get_emp_name(self):
         return self._emp_name
 
-    def set_emp_department(self, emp_department):
-        self._emp_department = emp_department
+    def set_emp_department(self, EmployeeRole):
+        self._emp_department = EmployeeRole
 
     def get_emp_department(self):
         return self._emp_department
